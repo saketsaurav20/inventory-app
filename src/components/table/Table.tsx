@@ -12,22 +12,6 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import DeleteIcon from "@mui/icons-material/Delete";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 
-// type TableRowData = {
-//   name: string;
-//   category: string;
-//   price: number;
-//   quantity: number;
-//   value: number;
-// };
-
-// type TableColumn = {
-//   title: string;
-//   key: string;
-//   render?: (
-//     value: TableRowData[keyof TableRowData],
-//     row: TableRowData
-//   ) => React.ReactNode;
-// };
 
 type TableProps = {
   columns: Record<string,any>[];
